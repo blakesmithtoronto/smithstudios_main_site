@@ -3182,7 +3182,7 @@ fieldset[disabled] .btn {
 
 .btn-color {
   color: #fff;
-  background-color: #BF0731;
+  background-color: #28a745;
 }
 
 .btn-color:hover,
@@ -3379,8 +3379,8 @@ fieldset[disabled] .btn {
 }
 
 .white-bg-icon:hover {
-  background-color: #BF0731;
-  border-color: #BF0731;
+  background-color: #28a745;
+  border-color: #28a745;
   color: #fff !important;
 }
 
@@ -3389,8 +3389,8 @@ fieldset[disabled] .btn {
 }
 
 .border-bg-default-color:hover {
-  background-color: #BF0731;
-  border-color: #BF0731;
+  background-color: #28a745;
+  border-color: #28a745;
   color: #fff;
 }
 
@@ -3408,7 +3408,7 @@ fieldset[disabled] .btn {
   top: -7px;
   left: -7px;
   padding: 7px;
-  box-shadow: 0 0 0 4px #BF0731;
+  box-shadow: 0 0 0 4px #28a745;
   -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
   -webkit-transform: scale(.8);
   -moz-transition: -moz-transform 0.2s, opacity 0.2s;
@@ -5759,7 +5759,7 @@ li.post-comment {
 }
 
 .footer-copyright ul.social-media li a:hover {
-  color: #BF0731;
+  color: #28a745;
 }
 
 .popular-tags a {
