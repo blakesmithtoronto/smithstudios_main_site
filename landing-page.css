@@ -1,12 +1,12 @@
 /*** SETUP ***/
 
 #portfolio-head {
-  color: black;
+  color: black ;
   margin: 15px;
 }
 
 * {
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   font: 'lato';
 }
@@ -21,39 +21,43 @@ body {
 /*** LANDING PAGE ***/
 
 video {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-height: 100%;
-  min-width: 100%;
-  width: auto;
-  height: auto;
-  background: transparent;
-  z-index: 0;
-  overflow: hidden;
+  position: absolute !important;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  min-height: 100% !important;
+  min-width: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  background: transparent !important;
+  z-index: 0 !important;
+  overflow: hidden !important;
 }
 
 .cont {
-  height: 100%;
-  width: 100%;
-  position: relative;
-  z-index: 2;
-  background-color: rgba(0, 0, 0, 0.8);
-  margin: 0;
+  height: 100% !important;
+  width: 100% !important;
+  position: relative!important;
+  z-index: 2!important;
+  background-color: rgba(0, 0, 0, 0.8)!important;
+  margin: 0!important;
 }
 
 #fix {
-  height: 100%;
-  z-index: 2;
-  position: relative;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
+  height: 100%!important;
+  z-index: 2!important;
+  position: relative!important;
+  width: 100%!important;
+  background-color: rgba(0, 0, 0, 0.7)!important;
+}
 
+#logoCont: {
+    width: 450px;
+    height: 400px;
 }
 
 .sub {
-  width: 450px;
+  width: 750px;
   height: 400px;
   margin: auto;
   z-index: 3;
@@ -61,7 +65,7 @@ video {
   top: 50%;
   margin-top: -240px;
   left: 50%;
-  margin-left: -221px;
+  margin-left: -375px;
   align-content: center;
   text-align: center;
 
@@ -81,11 +85,12 @@ video {
   margin-bottom: 0px;
   padding: 0;
   border-bottom: solid white 1px;
-  width: 80%;
+
   border-radius: 5px;
   vertical-align: middle;
-  padding-bottom: 0px;
-
+  padding-bottom: 0px;  
+  font: 'lato' !importnat; 
+    width: 400px;
 }
 
 #logo h1 {
